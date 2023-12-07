@@ -30,6 +30,11 @@ Codes in this repo are the result of this experiment and have a lot of bad pract
     - [Part 1](#part-1-1)
     - [Part 2](#part-2-1)
     - [Conclusion of day 2](#conclusion-of-day-2)
+- [Day 3](#day-3)
+    - [Problem](#problem-2)
+    - [Part 1](#part-1-2)
+    - [Part 2](#part-2-2)
+    - [Conclusion of day 3](#conclusion-of-day-3)
 
 
 ## Day 1
@@ -100,3 +105,35 @@ The biggest problem I encountered was because of a misconception I had about the
 ### Conclusion of day 2
 
 This second exercice was overall easier than the first one. Copilot was able to find the right answer quite easily and I didn't have to explain to him what to do. I just had to change a few things to make him understand what I wanted him to do. I think it's because the problem was easier to understand for Copilot than the first one and had less edge cases.
+
+## Day 3
+### Problem
+
+The third exercice was about finding the numbers adjacent to a symbol (#, $, +, -, etc.) in a grid. The instructions can be found [here](https://adventofcode.com/2023/day/3).
+
+### Part 1
+
+For the language choice, Copilot chose python again. I think he likes it.
+
+This exercice was really hard for Copilot to understand. I had to explain to him with a lot of different examples what I wanted him to do but he was always returning the wrong answer because of some edge cases or things he was not able to understand.
+
+Classics mistakes were :
+- Not understanding that this had to be viewed as a grid and not a string.
+- Adding the dot to the symbol to find the adjacent numbers (so he was finding every numbers).
+- Not checking verticaly and diagonaly neighbors.
+
+But after a lot of tries, and a lot of explanations, he was able to come up with a good piece of code.
+
+### Part 2 
+
+For this one, I almost had a breakdown. Copilot was not able to understand what I wanted him to do. I had to explain to him a lot of times with exemple, with counter exemple,...
+
+![He was driving me insane](day-3/assets/explanation.png)
+
+He had a lot of problems with understanding that it is numbers and not digits, that numbers had to be adjacent to the symbol,...
+
+But ! After a lot of tries, he was able to find the right answer as always.
+
+### Conclusion of day 3
+
+This exercice was the hardest for now. Copilot was barely able to understand what I wanted him to do and I had to explain to him a lot of times. I think it's because the problem was not really well explained and had a lot of edge cases. A lot of steps were needed to find a good piece of code.
