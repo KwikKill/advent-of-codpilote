@@ -174,3 +174,46 @@ And I had to redirected him a few times to get the right answer.
 ### Conclusion of day 4
 
 This exercice was really fine. Easy part 1 and a bit harder part 2 but nothing too hard. Copilot did well for the first one but I was a bit disappointed by the second one. It may be because I was unclear in my explanations but I prefer to blame Copilot.
+
+## Day 5
+### Problem
+
+The fifth exercice was about chaining maps describes by rules (input, output, range). The instructions can be found [here](https://adventofcode.com/2023/day/5).
+
+This one seems a bit harder than the previous ones and I'm not sure how Copilot will handle it. It may be a bit hard to explain to him and take a lot of time.
+
+### Part 1
+
+Copilot chose python again. One day he'll change. I hope.
+
+Parsing the file was hard. At first he thinked that there was only one conversion dictionary and that the input was always the same. I had to explain to him that there was a list of conversion dictionaries and that the input was also include in the input.
+
+![you're not listening to me, right ?](day-5/assets/notagain.png)
+
+But when I gave him an input example, he came up with a good piece of code. A very good one. I just had to remind him that the input was also containing the seeds.
+
+![Good job my boi !](day-5/assets/heismakingmeproud.png)
+
+And for the conversion you may ask ? It was a one shot. He was really in a good shape for this one.
+
+![Last thing](day-5/assets/goodprompt.png)
+
+### Part 2
+
+Oh god. My free time... Where was it gone ? It took me 2 hours to complete this part. 
+
+The strategy on this part 2 was to represent the seeds as a range and then to convert them to location by splitting the ranges when overlapping. 
+
+Copilots struggled on a lot of points :
+- First of all, he wanted to represent the seeds individually and not as a range. Of course, I do not own a supercomputer with 2TB of RAM so It was not a good idea.
+- Then, he tried to create a function with both return and yield. This is because I asked him to modify an existing function to make it work with a generator.
+- The overlapping... It was so hard to make him understand how it was supposed to work. 
+- And finally, the easiest but the last one he understood was to just add the range back when there was no rule to apply.
+
+![are you serious ???](day-5/assets/thisthingwillnotstealmyjob.png)
+![Close...](day-5/assets/onmyway.png)
+
+
+### Conclusion of day 5
+
+The part 1 of the day 5 was really simple for Copilot, maybe because of a good description of the problem. The part 2 was a hell maybe because of an unclear conception from me. A lot of bad codes (semantically and syntactically) were generated and I had to tell him to go back to the beginning a lot of times. It was a hard exercice but with time, I'm still in the challenge.
